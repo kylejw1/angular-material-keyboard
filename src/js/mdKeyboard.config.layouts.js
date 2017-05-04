@@ -67,16 +67,6 @@ angular
                 ], 'lang': ["en"]
             }
         };
-        // aliases
-        layouts['Hrvatski'] = {
-            'name': "Croatian", 'keys': layouts['Bosanski'].keys.slice(0), 'lang': ["hr"]
-        };
-        layouts['Sloven\u0161\u010dina'] = {
-            'name': "Slovenian", 'keys': layouts['Bosanski'].keys.slice(0), 'lang': ["sl"]
-        };
-        layouts['Srpski'] = {
-            'name': "Serbian Latin", 'keys': layouts['Bosanski'].keys.slice(0), 'lang': ["sr"]
-        };
 
         return layouts;
     })());
